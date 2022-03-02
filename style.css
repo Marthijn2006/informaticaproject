@@ -1,0 +1,45 @@
+body{
+  background-image: url("http://mil.ethical-cybercash.com/background-login.jpg");
+}
+
+
+input{
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 12px 12px;
+  border-radius: 1px;
+  border: 3px #ccc solid;
+}
+
+#submit{
+  background-color: #36f719;
+  font-weight: bold;
+}
+
+h1{
+  text-size: 40px;
+  text-align: center;
+  color: #dd19f7;
+}
+
+#header{
+  border: 12px 12px solid #ccc;
+  background-color: #ccc;
+  border-radius: 1px;
+}
+
+#disclaimer{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: red;
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: light;
+}
+
+#disclaimer_div{
+  background-color: #ccc;
+}
