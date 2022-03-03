@@ -1,0 +1,16 @@
+﻿Beste meneer Wassenaar,
+
+Onder de Informaticales treedde er een error op in het programma, ik had u beloofd om hier een reactie op te geven. De error zit waarschijnlijk in de lijn :
+$conn = new mysqli('localhost', 'u779587293_official', 'Hello123!', 'u779587293_official');
+Hierbij is de fout dat de servers in dit geval verschillen, dit komt omdat XAMPP localhost als een andere server ziet dan de website dit ziet. Om dit probleem te verhelpen moeten we de regel iets veranderen. 
+De databases van uw programma komen niet overeen met de database namen van u. Dit is geen groot probleem. De code moet worden veranderd in:
+ $conn = new mysqli('localhost', 'registration', '', 'registration');
+Wat er veranderd is aan de code is de database naam, bij mij heet de database u7589_…… maar bij u heet de database registration. Dit heb ik veranderd, in de regel. Nog een fout in de regel is het wachtwoord, XAMPP maakt geen gebruik van een wachtwoord voor een database. Dit heb ik dus blanco gelaten. Bij het overnemen van deze code is het belangrijk dat er ook geen spatie staat in het password-field, een spatie neemt hij namelijk al op voor een wachtwoord.
+Als er fout in de database naam zit kunt u dit overnemen en de variabelen vervangen voor de gegevens.
+
+$conn = new mysqli($servername, $gebruikersnaam, $wachtwoord,$database_naam);
+
+Meestal is $servername gelijk aan ‘localhost’.
+Bij meer errors kunt u mij gerust een screenshot sturen, en zal dit snel verhelpen.
+
+Groetjes Marthijn
