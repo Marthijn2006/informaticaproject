@@ -1,0 +1,30 @@
+<table width=960px; height=600px;
+  <tr>
+    <td>Cel 1</td>
+    <td>Cel 2</td>
+  </tr>
+  <tr>
+    <td>Cel 3</td>
+    <td>Cel 4</td>
+  </tr>
+</table>
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    Hello world
+    <p id = "jesper"> Jesper hello! </p>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+body{
+  background-image: url("Background.jpeg");
+}
