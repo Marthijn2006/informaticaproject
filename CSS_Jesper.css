@@ -1,13 +1,25 @@
-<table width=960px; height=600px;
-  <tr>
-    <td>Cel 1</td>
-    <td>Cel 2</td>
-  </tr>
-  <tr>
-    <td>Cel 3</td>
-    <td>Cel 4</td>
-  </tr>
-</table>
+body, html {
+  height: 100%;
+}
+
+body {
+  background-image: url("Background2.jpeg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+table {
+  width: 100%;
+  padding-left: 20%;
+  padding-top: 30%;
+}
+
+table {
+  height: 100%;
+}
 
 
 <!DOCTYPE html>
@@ -24,7 +36,3 @@
     <script src="script.js"></script>
   </body>
 </html>
-
-body{
-  background-image: url("Background.jpeg");
-}
