@@ -1,38 +1,60 @@
+
+
+/* Voor alle vragen */
 body, html {
   height: 100%;
 }
 
 body {
-  background-image: url("Background2.jpeg");
+  background-image: url("Background1.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+img {
+  position: fixed;
+  width: 540px;
+  height: 340px;
+  padding-left: 32%;
+  max-width: 300%;
+  max-height: 300%;
+}
 
 table {
   width: 100%;
-  padding-left: 20%;
-  padding-top: 30%;
+  padding-left: 22%;
+  padding-top: 25%;
+  padding-bottom: 10%;
+  color: cyan;
+  
+}
+table {
+  height: 100%;
+  font-size: 30px;
 }
 
-table {
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: cyan;
+}
+
+/* Voor alle vragen tot hier */
+/* nu voor startscherm */
+
+body, html {
   height: 100%;
 }
 
+body{
+  background-image: url("Startscherm.jpeg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+ /* tot hier voor startscherm */
+}
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>replit</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    Hello world
-    <p id = "jesper"> Jesper hello! </p>
-    <script src="script.js"></script>
-  </body>
-</html>
