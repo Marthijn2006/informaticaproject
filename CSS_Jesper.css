@@ -42,21 +42,7 @@ h1 {
 }
 
 /* Voor alle vragen tot hier */
-/* nu voor startscherm */
 
-body, html {
-  height: 100%;
-}
-
-body{
-  background-image: url("Startscherm.jpeg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* tot hier voor startscherm */
 /* Nu win scherm */
 
 body, html {
