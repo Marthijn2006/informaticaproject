@@ -62,3 +62,38 @@ h1 {
   padding-top: 17%;
 }
 
+/* Hier eindigt win scherm */
+
+/* Hier begint doorgaan of geld */
+
+h1 {
+  border-style: solid;
+  font-size: 50px;
+  color: blue;
+  margin: auto;
+  width: 25%;
+  padding: 60px;
+  padding-top: 5%;
+}
+
+h2 {
+  border-style: solid;
+  font-size: 50px;
+  color: blue;
+  margin: auto;
+  width: 25%;
+  padding: 60px;
+  padding-top: 5%;
+}
+
+body {
+  background-image: url("Background_Doorgaan_Of_Geld.jpg");
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Hier eindigt doorgaan of geld */
+
+
+
