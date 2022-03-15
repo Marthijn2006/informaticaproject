@@ -9,6 +9,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 
 img {
@@ -39,7 +40,7 @@ h1 {
   color: cyan;
 }
 
-/* Voor alle vragen tot hier */
+/* Hier eindigt vragen */
 
 /* Nu win scherm */
 
