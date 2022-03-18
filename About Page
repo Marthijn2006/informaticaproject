@@ -1,0 +1,89 @@
+Html
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  </html>
+
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#spelregels">Spelregels</a></li>
+<li><a href="#contact">Contact</a></li>
+<li><a class="active" href="#about">About</a></li>
+</ul>
+
+<div id = "header_text">
+<h1>
+  Welkom bij het miljonairs spel!</h1> 
+</div>
+<div id = "explain">
+<h2> Bij het starten van het spel: </h2>
+<p> 1. Wordt u doorgestuurd naar de registratiepagina. </p>
+<p> 2. Na het invullen van uw gegevens worden uw gegevens gecontroleerd. </p>
+<p> 3. Na het registreren kunt u de quiz starten.</p>
+
+</div>
+<div id = "borderbutton" style = "text-align:center;">
+<br>
+</br>
+<br>
+</br>
+<br>
+</br>
+<br>
+</br>
+<br>
+</br>
+<br>
+</br>
+<input type = "submit" name = "submit" id = "submit" value = "start de quiz!" href = "mil.ethical-cybercash.com/registreren.html">
+</div>
+</body>
+</form>
+</html>
+
+
+Css
+body, html {
+  height: 100%;
+}
+
+body {
+  background-image: url("Background3_Edited.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  font-size: 35px;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+}
+
+input {
+  font-size: 30px;
+}
+
+li {
+  display: inline-block;
+  margin: 5px;
+  font-size: 20px;
+}
