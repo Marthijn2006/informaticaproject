@@ -1,6 +1,6 @@
 <?php
-
-$answer = $_POST['answer'];
+$submit = $_POST['submit'];
+$answer = $_POST['option'];
 $servername = "localhost";
 $username = "u779587293_questions";
 $password = "Vragenisaltijdgoed123!";
@@ -16,11 +16,8 @@ $count = mysqli_num_rows($result);
 
 if($count == 1){
   echo "<center><h1> Antwoord is correct </h1></center>";
-  header("Location  : vraag2.php");
-  die();
+  header("Location : vraag9.php");
 }else{
   echo "<center><h1> Dit antwoord is niet correct </h1></center>";
 }
-
-$conn->close();
 ?>
